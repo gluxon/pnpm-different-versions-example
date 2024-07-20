@@ -1,0 +1,29 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  packages/a:
+    dependencies:
+      is-positive:
+        specifier: ^3.0.0
+        version: 3.0.0
+
+  packages/b:
+    dependencies:
+      is-positive:
+        specifier: ^3.0.0
+        version: 3.0.0
+
+packages:
+
+  is-positive@3.0.0:
+    resolution: {integrity: sha512-JDkaKp5jWv24ZaFuYDKTcBrC/wBOHdjhzLDkgrrkJD/j7KqqXsGcAkex336qHoOFEajMy7bYqUgm0KH9/MzQvw==}
+    engines: {node: '>=0.10.0'}
+
+snapshots:
+
+  is-positive@3.0.0: {}
